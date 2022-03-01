@@ -444,17 +444,13 @@ var _reactDom = __webpack_require__(4);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+var _App = __webpack_require__(15);
+
+var _App2 = _interopRequireDefault(_App);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function App() {
-    return _react2.default.createElement(
-        "h1",
-        null,
-        "Hello World!"
-    );
-}
-
-_reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById("root"));
+_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById("root"));
 
 /***/ }),
 /* 6 */
@@ -30467,6 +30463,155 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = App;
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _About = __webpack_require__(16);
+
+var _About2 = _interopRequireDefault(_About);
+
+var _Info = __webpack_require__(18);
+
+var _Info2 = _interopRequireDefault(_Info);
+
+var _Interests = __webpack_require__(19);
+
+var _Interests2 = _interopRequireDefault(_Interests);
+
+var _Footer = __webpack_require__(17);
+
+var _Footer2 = _interopRequireDefault(_Footer);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function App() {
+    return _react2.default.createElement(
+        "div",
+        null,
+        _react2.default.createElement(_About2.default, null),
+        _react2.default.createElement(_Info2.default, null),
+        _react2.default.createElement(_Interests2.default, null),
+        _react2.default.createElement(_Footer2.default, null)
+    );
+}
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = About;
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function About() {
+    return _react2.default.createElement(
+        "h1",
+        null,
+        "Photos, name, buttons, etc"
+    );
+}
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = Footer;
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Footer() {
+    return _react2.default.createElement(
+        "h1",
+        null,
+        "Here will be the footer"
+    );
+}
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = Info;
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Info() {
+    return _react2.default.createElement(
+        "h1",
+        null,
+        "Info details goes here"
+    );
+}
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = Info;
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Info() {
+    return _react2.default.createElement(
+        "h1",
+        null,
+        "Interests of the person will be here"
+    );
+}
 
 /***/ })
 /******/ ]);
