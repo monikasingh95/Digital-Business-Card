@@ -16,6 +16,13 @@ module.exports = {
         },
         "exclude": /node_modules/,
         "test": /\.js$/
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+        },
       }
     ]
   },

@@ -1,5 +1,5 @@
 import React from "react";
-import reactImage from "../images/picture.jpg";
+import reactImage from "../dist/picture.jpg";
 
 export default function About () {
     return (
