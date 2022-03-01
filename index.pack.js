@@ -30525,13 +30525,20 @@ var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _picture = __webpack_require__(20);
+
+var _picture2 = _interopRequireDefault(_picture);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function About() {
     return _react2.default.createElement(
-        "h1",
+        "div",
         null,
-        "Photos, name, buttons, etc"
+        _react2.default.createElement("img", { src: _picture2.default,
+            alt: "React Image",
+            className: "logo"
+        })
     );
 }
 
@@ -30612,6 +30619,12 @@ function Info() {
         "Interests of the person will be here"
     );
 }
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports) {
+
+throw new Error("Module parse failed: C:\\Users\\Monika\\WebstormProjects\\Digital Business Card Project\\images\\picture.jpg Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)");
 
 /***/ })
 /******/ ]);

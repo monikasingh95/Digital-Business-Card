@@ -1,5 +1,13 @@
 import React from "react";
+import reactImage from "../images/picture.jpg";
 
 export default function About () {
-    return <h1>Photos, name, buttons, etc</h1>
+    return (
+        <div>
+            <img src={reactImage}
+                 alt="React Image"
+                 className="logo"
+            />
+        </div>
+    )
 }
