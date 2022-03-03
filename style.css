@@ -1,4 +1,16 @@
 * {
     box-sizing: border-box;
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 75px;
+    top: 53px;
+}
+
+img {
+    width: 317px;
+    height: 350px;
+    Top: 45px;
+    Left: 114px;
 }
 
