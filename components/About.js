@@ -1,6 +1,6 @@
 import React from "react";
 import reactImage from "../images/picture.jpg";
-import { FaGithub} from "react-icons/fa";
+import {FaFacebook, FaGithub, FaInstagram, FaTwitter} from "react-icons/fa";
 import { FaLinkedinIn} from "react-icons/fa";
 import { FaEnvelope} from "react-icons/fa";
 
@@ -49,10 +49,19 @@ export default function About () {
                 <p>This is about me</p>
             </div>
 
-            <div className="social-icon-background"></div>
-
-            <div className="github-icon">
-                <FaGithub />
+            <div className="social-icon-background">
+                <div className="icons">
+                    <FaTwitter color={"white"} size={"2em"}/>
+                </div>
+                <div className="icons">
+                    <FaFacebook color={"white"} size={"2em"}/>
+                </div>
+                <div className="icons">
+                    <FaInstagram color={"white"} size={"2em"}/>
+                </div>
+                <div className="icons">
+                    <FaGithub color={"white"} size={"2em"}/>
+                </div>
             </div>
 
         </div>
