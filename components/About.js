@@ -1,5 +1,6 @@
 import React from "react";
 import reactImage from "../images/picture.jpg";
+import { FaGithub} from "react-icons/fa";
 
 export default function About () {
     return (
@@ -39,7 +40,7 @@ export default function About () {
             </div>
 
             <div className="my-interest">
-                <p>Books | Badminton | Rubik's Cube | Bollywood dance | Series | Coffee | Health & Wellness Articles | Yoga</p>
+                <p>Books | Rubik's Cube | Skates| Bollywood dance | Series | Coffee | Health & Wellness Articles | Yoga</p>
             </div>
 
             <div className="about-me">
@@ -48,7 +49,9 @@ export default function About () {
 
             <div className="social-icon-background"></div>
 
-            <div className="github-icon"></div>
+            <div className="github-icon">
+                <FaGithub/>
+            </div>
 
         </div>
     )
