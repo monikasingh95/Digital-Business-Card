@@ -39,7 +39,7 @@ export default function About () {
             </div>
 
             <div className="my-interest">
-                <p>Reader | Badminton | Rubik's Cube | Bollywood dance | Series Buff | Coffee fanatic</p>
+                <p>Books | Badminton | Rubik's Cube | Bollywood dance | Series | Coffee | Health & Wellness Articles | Yoga</p>
             </div>
 
             <div className="about-me">
