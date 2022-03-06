@@ -1,6 +1,8 @@
 import React from "react";
 import reactImage from "../images/picture.jpg";
 import { FaGithub} from "react-icons/fa";
+import { FaLinkedinIn} from "react-icons/fa";
+import { FaEnvelope} from "react-icons/fa";
 
 export default function About () {
     return (
@@ -10,11 +12,11 @@ export default function About () {
             <div className="rectangle91"></div>
 
             <div className="button1">
-                <p className="linkedIn">LinkedIn</p>
+                    < FaLinkedinIn />
             </div>
 
             <div className="button2">
-                <p className="email">Email</p>
+                < FaEnvelope />
             </div>
 
             <div className="monika-web">
@@ -50,7 +52,7 @@ export default function About () {
             <div className="social-icon-background"></div>
 
             <div className="github-icon">
-                <FaGithub/>
+                <FaGithub />
             </div>
 
         </div>
