@@ -27,6 +27,7 @@
 
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .linkedIn{
@@ -93,6 +94,7 @@
 
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .email{
@@ -286,10 +288,10 @@
 
     background: #161619;
     border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
 }
 
 .icons{
     padding-left: 5px;
     padding-right: 5px;
 }
-

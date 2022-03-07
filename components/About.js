@@ -11,16 +11,16 @@ export default function About () {
 
             <div className="rectangle91"></div>
 
-            <div className="button1">
-                    < FaLinkedinIn />
-            </div>
+            <button onClick={() => window.location = "https://www.linkedin.com/in/monika-singh-04a40aba/"} className="button1">
+                < FaLinkedinIn />
+            </button>
 
-            <div className="button2">
+            <button onClick={() => window.location = 'mailto:monminu11@gmail.com'} className="button2">
                 < FaEnvelope />
-            </div>
+            </button>
 
             <div className="monika-web">
-                <p>Monika's Website</p>
+                <p></p>
             </div>
 
             <div className="anne-gracia"></div>
@@ -46,24 +46,25 @@ export default function About () {
             </div>
 
             <div className="about-me">
-                <p>This is about me</p>
+                <p>I started coding in 2021 but still consider myself as a beginner.
+                    I have a basic knowledge of HTML, CSS and javascript and trying my luck in React.
+                    I always look up to learn something new and challenging</p>
             </div>
 
             <div className="social-icon-background">
-                <div className="icons">
+                <div className="icons" onClick={() => window.location = "https://twitter.com/monminuu"}>
                     <FaTwitter color={"white"} size={"2em"}/>
                 </div>
-                <div className="icons">
+                <div className="icons" onClick={() => window.location = "https://www.facebook.com/monminuu/"}>
                     <FaFacebook color={"white"} size={"2em"}/>
                 </div>
-                <div className="icons">
+                <div className="icons" onClick={() => window.location = "https://www.instagram.com/monminuu/"}>
                     <FaInstagram color={"white"} size={"2em"}/>
                 </div>
-                <div className="icons">
+                <div className="icons" onClick={() => window.location = "https://github.com/monminuu"}>
                     <FaGithub color={"white"} size={"2em"}/>
                 </div>
             </div>
-
         </div>
     )
 }
