@@ -7,10 +7,10 @@ import Footer from "./components/Footer";
 export default function App() {
     return (
         <div>
+            <Info />
             <About />
-            {/*<Info />*/}
-            {/*<Interests />*/}
-            {/*<Footer />*/}
+            <Interests />
+            <Footer />
         </div>
     )
 }
