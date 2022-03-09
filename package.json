@@ -19,7 +19,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w",
-    "lite": "lite-server"
+    "start": "node index.html"
   },
   "resolutions": {
     "react-dev-utils": "10.0.0"
