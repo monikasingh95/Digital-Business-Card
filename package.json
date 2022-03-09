@@ -17,6 +17,7 @@
     "webpack-cli": "^4.9.2"
   },
   "scripts": {
+    "postinstall": "npm run build",
     "build": "webpack",
     "watch": "webpack -w",
     "start": "lite-server"
